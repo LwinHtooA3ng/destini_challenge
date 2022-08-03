@@ -57,12 +57,12 @@ class _StoryPageState extends State<StoryPage> {
                     fontSize: 20,
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 15,
                 ),
                 Card(
                   child: Padding(
-                    padding: EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(20),
                     child: Center(
                       child: Text(myStory,
                           // style: const TextStyle(
@@ -71,11 +71,12 @@ class _StoryPageState extends State<StoryPage> {
                           // ),
                           style: GoogleFonts.uchen(
                             fontSize: 15.0,
+                            fontStyle:FontStyle.italic
                           )),
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 40,
                 ),
                 Container(
